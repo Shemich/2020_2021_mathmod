@@ -8,7 +8,7 @@ FORMAT_OPTIONS =
 
 # FILTERS += -F pandoc-citeproc
 FILTERS += -F pandoc-crossref
-PDF_ENGINE += --pdf-engine=xelatex
+PDF_ENGINE += --pdf-engine=lualatex
 PDF_OPTIONS += --number-sections
 
 %.docx: %.md
